@@ -1,0 +1,23 @@
+package ClassesandObjects;
+
+class Frog {
+	String name;
+	int age;
+
+	public String getName() {
+		return name;
+	}
+
+public	int getAge() {
+		return age;
+	}
+}
+
+public class SettersandThis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Setters are also called Mutators
+	}
+
+}

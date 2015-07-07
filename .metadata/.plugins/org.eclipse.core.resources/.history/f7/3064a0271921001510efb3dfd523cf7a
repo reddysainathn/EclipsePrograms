@@ -1,0 +1,17 @@
+package ClassesandObjects;
+
+public class Plant {
+	// Bad Practice
+	public String name;
+	// Acceptable Practice --- It's Final.
+	public static final int ID = 8;
+
+	private String type;
+
+	public Plant() {
+		// TODO Auto-generated constructor stub
+		this.name = "Freddy";
+
+		type = "plant";
+	}
+}

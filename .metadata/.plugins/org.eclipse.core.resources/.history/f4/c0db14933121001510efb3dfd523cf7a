@@ -1,0 +1,12 @@
+package ClassesandObjects;
+
+public class InnerClassRobot {
+
+	private int id;
+
+	public InnerClassRobot(int id) {
+		super();
+		this.id = id;
+	}
+
+}

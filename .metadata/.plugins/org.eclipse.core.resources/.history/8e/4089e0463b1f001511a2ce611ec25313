@@ -1,0 +1,21 @@
+package ControlFlowStatements;
+
+import java.util.Scanner;
+
+public class GettingUserInputs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//create a scanner object
+		Scanner input = new Scanner(System.in) ;
+		//output of prompt
+		System.out.println("Enter a line of text:");
+		//wait for the user to enter a line of text
+		String line = input.nextLine();
+		//tell them what they entered
+		System.out.println("You Entered: "  +line);
+		
+	}
+
+}

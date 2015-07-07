@@ -1,0 +1,15 @@
+package ClassesandObjects;
+class Frogs{
+	public String toString(){
+		return "Hello";
+	}
+}
+public class ToString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Frogs frog1 = new Frogs();
+System.out.println(frog1);
+	}
+
+}

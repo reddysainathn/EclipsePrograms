@@ -1,0 +1,13 @@
+package ClassesandObjects;
+//Constructor is a special method which runs every time we create an instance
+class Machine {
+	
+}
+public class Constructors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

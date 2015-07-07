@@ -1,0 +1,38 @@
+package ClassesandObjects;
+
+class Persns {
+	private int id;
+	private String name;
+
+	public Persns(int id, String name) {
+
+		this.id = id;
+		this.name = name;
+
+	}
+
+	@Override
+	public String toString() {
+		return "Person [id=" + id + ", name=" + name + "]";
+	}
+
+}
+
+public class EqualsMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Persns person1 = new Persns(5, "Bob");
+		Persns person2 = new Persns(5, "Bob");
+		System.out.println(person1.toString());
+
+	
+
+		// Checking whether the pointing is to same Object or not
+		System.out.println(person1 == person2);
+		
+		
+		System.out.println(person1.equals(person2));
+	}
+
+}

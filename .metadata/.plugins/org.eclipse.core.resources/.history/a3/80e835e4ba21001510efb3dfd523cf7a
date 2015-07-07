@@ -1,0 +1,6 @@
+package Enums;
+
+public enum EnumsAnimal {
+	CAT,DOG,MOUSE
+
+}

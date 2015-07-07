@@ -1,0 +1,24 @@
+
+package ClassesandObjects;
+class person
+{
+	//Instance variables(data or "State")
+	
+	
+	//classes can contain
+	
+	//1.Data
+	//2.Subroutines(Methods)
+	
+	
+}
+public class IntroToClasses {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello  There");
+
+	}
+
+}

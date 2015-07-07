@@ -1,0 +1,21 @@
+package ClassesandObjects;
+
+public class InnerClassRobot {
+
+	private int id;
+	
+	class Brain{
+		public void think(){
+			System.out.println("Robot "+id+ " is thinking.");
+		}
+	}
+
+	public InnerClassRobot(int id) {
+		super();
+		this.id = id;
+	}
+
+	public void start() {
+		System.out.println("Starting Robot :" + id);
+	}
+}

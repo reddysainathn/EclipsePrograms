@@ -1,0 +1,15 @@
+package ClassesandObjects;
+
+public class Plant {
+	//Bad Practice
+	public String name;
+	
+	public static final  int ID =8;
+	
+	
+
+	public Plant() {
+		// TODO Auto-generated constructor stub
+		this.name="Freddy";
+	}
+}

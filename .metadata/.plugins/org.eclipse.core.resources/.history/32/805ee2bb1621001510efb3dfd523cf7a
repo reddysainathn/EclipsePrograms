@@ -1,0 +1,10 @@
+package ClassesandObjects;
+
+public class PublicPrivateandProtected {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Plant plant = new Plant();
+	}
+
+}

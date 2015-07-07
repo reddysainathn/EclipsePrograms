@@ -1,0 +1,30 @@
+package ClassesandObjects;
+
+public class InnerClassRobot {
+
+	private int id;
+
+	// This is a Nested-Class
+	// Inner-classes used for Grouping
+	// We can't access in main program with private keyword in inner-class
+	// private class Brain {
+
+	public class Brain {
+		public void think() {
+			System.out.println("Robot " + id + " is thinking.");
+		}
+	}
+
+	public InnerClassRobot(int id) {
+		super();
+		this.id = id;
+	}
+
+	public void start() {
+		System.out.println("Starting Robot :" + id);
+
+		Brain brain = new Brain();
+		brain.think();
+
+	}
+}

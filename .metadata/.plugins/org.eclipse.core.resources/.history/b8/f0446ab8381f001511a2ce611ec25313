@@ -1,0 +1,15 @@
+package ControlFlowStatements;
+
+public class IfStatements {
+
+	public static void main(String[] args) {
+int myInt = 20;
+if(myInt <10){
+	System.out.println("Yes,Its true");
+	}
+else if(myInt > 30) {
+	System.out.println("No,Its false");
+}
+	}
+
+}

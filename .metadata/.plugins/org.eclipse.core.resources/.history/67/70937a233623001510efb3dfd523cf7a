@@ -1,0 +1,27 @@
+/*
+ * ______________
+   |     A       |
+   |       int a |
+   |_____________|
+         |   
+         |
+         |
+   --------------
+   |    B        |
+   |      int b  |
+   |_____________|
+ */
+public class A{
+	private int a;
+	public A(int a){
+		this.a=a;
+		
+	}
+}
+    
+public class Example1 {
+	
+public static void main(String[] args) {
+	
+}
+}

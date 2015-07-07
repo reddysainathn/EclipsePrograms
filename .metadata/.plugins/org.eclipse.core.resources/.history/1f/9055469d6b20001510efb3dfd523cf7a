@@ -1,0 +1,32 @@
+package ClassesandObjects;
+
+class Frog {
+	String name;
+	int age;
+
+	public void setName(String newName){
+		name= newName;
+		
+	}
+	public String getName() {
+		return name;
+	}
+
+public	int getAge() {
+		return age;
+	}
+}
+
+public class SettersandThis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Setters are also called Mutators
+		Frog frog1 =new Frog();
+		frog1.name="Bertie";
+		frog1.age=1;
+		System.out.println(frog1.getName());
+		
+	}
+
+}

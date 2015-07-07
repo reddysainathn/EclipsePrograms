@@ -1,0 +1,22 @@
+package ClassesandObjects;
+
+//Constructor is a special method which runs every time we create an instance
+//Constructor doesn't have a return type
+class Machine {
+	private String name;
+
+	public Machine() {
+		System.out.println("Contructor Running!");
+		name = "Arnie";
+	}
+}
+
+public class Constructors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Machine machine1 = new Machine();
+		new Machine();
+	}
+
+}

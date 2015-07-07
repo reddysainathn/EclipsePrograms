@@ -1,0 +1,10 @@
+import packagesConcepts.*;
+
+
+
+
+public class PackageConcept {
+	Fish fish = new Fish(); 
+	
+Seaweed weed =  new Seaweed();
+}

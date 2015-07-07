@@ -1,0 +1,14 @@
+package ControlFlowStatements;
+
+public class IfStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+int myInt = 20;
+if(myInt < 10){
+	System.out.println("Yes,its true!");
+}
+	}
+
+}

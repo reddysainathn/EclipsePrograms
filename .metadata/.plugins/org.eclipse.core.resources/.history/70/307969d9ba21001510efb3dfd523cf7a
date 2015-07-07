@@ -1,0 +1,27 @@
+package ClassesandObjects;
+
+
+//Enum is Enumuration
+public class Enums {
+
+	//public static final int DOG = 0;
+	//public static final int CAT = 1;
+	//public static final int MOUSE = 2;
+
+	EnumsAnimal animal  = 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int animal = CAT;
+		switch (animal) {
+		case DOG:
+			System.out.println("Dog");
+			break;
+		case CAT:
+			System.out.println("Cat");
+			break;
+
+		}
+
+	}
+
+}

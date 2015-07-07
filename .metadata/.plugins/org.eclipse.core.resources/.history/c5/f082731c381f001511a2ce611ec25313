@@ -1,0 +1,15 @@
+package ControlFlowStatements;
+
+public class IfStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+boolean condition = 1 != 6 && 6 < 7 && 4 == 3 ;
+System.out.println(condition);
+
+if(5 != 5){
+	System.out.println("Yes,its true!");
+}
+	}
+
+}

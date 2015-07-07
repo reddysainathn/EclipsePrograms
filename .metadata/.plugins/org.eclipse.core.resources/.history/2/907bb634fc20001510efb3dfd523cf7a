@@ -1,0 +1,20 @@
+package ClassesandObjects;
+
+public class StringBuild {
+	public static void main(String[] args) {
+		//Inefficient 
+		String info = "";
+		info += "My name is Bob.";
+		info += " ";
+		info += "I am a builder.";
+		System.out.println(info);
+		
+		StringBuilder sb = new StringBuilder("");
+		sb.append("My name is Sue.");
+		sb.append(" ");
+		sb.append("I am a tamer.");
+		System.out.println(sb);
+		
+
+	}
+}

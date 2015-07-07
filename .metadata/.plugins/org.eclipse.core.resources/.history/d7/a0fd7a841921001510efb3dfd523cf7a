@@ -1,0 +1,12 @@
+package ClassesandObjects;
+
+public class Oak extends Plant {
+
+	public Oak() {
+
+		// Wont work, type is private
+		// type = "tree";
+
+	}
+
+}

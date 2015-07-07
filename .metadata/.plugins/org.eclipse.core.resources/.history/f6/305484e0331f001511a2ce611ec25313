@@ -1,0 +1,13 @@
+
+public class UsingString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String text = "Hello";
+		String blank = " ";
+		String name = "Bob";
+		String greeting = text + blank + name;
+		System.out.println(greeting);
+	}
+
+}

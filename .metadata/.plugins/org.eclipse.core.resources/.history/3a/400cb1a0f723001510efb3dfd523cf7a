@@ -1,0 +1,12 @@
+
+public class Interfacee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Machine mach1 = new Machine();
+		
+	}
+
+}

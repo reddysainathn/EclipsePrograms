@@ -1,0 +1,14 @@
+package ClassesandObjects;
+
+public class InnerClasses {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		InnerClassRobot robot1 = new InnerClassRobot(7);
+
+	}
+
+}

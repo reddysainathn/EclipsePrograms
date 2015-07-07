@@ -1,0 +1,12 @@
+public class Machine {
+	private int name;
+
+	public Machine(int name) {
+		super();
+		this.name = name;
+	}
+
+	public void start() {
+		System.out.println("Machine Started!");
+	}
+}

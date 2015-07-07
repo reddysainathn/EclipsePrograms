@@ -1,0 +1,41 @@
+package ClassesandObjects;
+
+class Frog {
+	private String name;
+	private int age;
+
+	// Setters are also called Mutators
+
+	public void setName(String newName) {
+		name = newName;
+
+	}
+
+	public void setAge(int newAge) {
+		age = newAge;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+}
+
+public class SettersandThis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Frog frog1 = new Frog();
+		//private cant access the parameters directly,so we use setter
+		// frog1.name="Bertie";
+		// frog1.age=1;
+		frog1.setAge(1);
+		frog1.setName("Bertie");
+		System.out.println(frog1.getName());
+
+	}
+
+}
