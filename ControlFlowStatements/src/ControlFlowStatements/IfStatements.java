@@ -2,7 +2,6 @@ package ControlFlowStatements;
 
 public class IfStatements {
 
-
 	public static void main(String[] args) {
 int myInt = 20;
 if(myInt <10){
