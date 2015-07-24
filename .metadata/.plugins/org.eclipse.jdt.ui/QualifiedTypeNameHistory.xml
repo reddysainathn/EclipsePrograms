@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="startingThreads.Runner"/>
+<fullyQualifiedTypeName name="basicThreadSynchronization4.Processor"/>
+<fullyQualifiedTypeName name="synchronisedKeyWord5.SynchronisedKeyWord"/>
+<fullyQualifiedTypeName name="multipleLocksUsingSynchronised6.MultipleLocksUsingSynchronised"/>
+<fullyQualifiedTypeName name="multipleLocksUsingSynchronised6.Worker"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+<fullyQualifiedTypeName name="countDownLatches8.CountDownLatches"/>
+<fullyQualifiedTypeName name="countDownLatches8.CountDownLatchess"/>
+<fullyQualifiedTypeName name="countDownLatches8.Processor"/>
+<fullyQualifiedTypeName name="basicThreadSynchronization4.Worker"/>
+<fullyQualifiedTypeName name="java.util.concurrent.BlockingQueue"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="WaitAndNotify_10.Processor"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="ReentrantLocks_11.ReentrantLocks"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.Condition"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="DeadLock12.Runner"/>
+<fullyQualifiedTypeName name="javax.security.auth.login.AccountException"/>
+<fullyQualifiedTypeName name="DeadLock12.Account"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+<fullyQualifiedTypeName name="Semaphores_13.Semaphoress"/>
+<fullyQualifiedTypeName name="Semaphores_13.Connectionn"/>
+<fullyQualifiedTypeName name="Semaphores_13.Connection"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="runnableThreads2.RunnableThreadss"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.io.IOError"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
