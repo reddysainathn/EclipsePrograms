@@ -1,0 +1,6 @@
+public class WriteObjects {
+
+	public static void main(String[] args) {
+		System.out.println("Writing objects...");
+	}
+}

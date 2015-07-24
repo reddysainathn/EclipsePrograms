@@ -1,0 +1,5 @@
+package multipleLocksUsingSynchronised6;
+
+public class Worker {
+
+}

@@ -1,0 +1,16 @@
+
+public class Camera extends BaseClassMachine{
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		System.out.println("Starting Camera!");
+	}
+
+	@Override
+	public void doStuff() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

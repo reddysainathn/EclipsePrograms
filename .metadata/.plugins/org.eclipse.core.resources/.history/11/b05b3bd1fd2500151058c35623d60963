@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+/*
+ * Using Generics class is a class that can work with other objects 
+ * and we can specify what object we can work when we instantiate the class
+ */
+public class UsingGenerics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// using ArrayList we can manage array by adding or removing elements
+
+		// /////Before JAVA 5////
+		ArrayList list = new ArrayList();
+		list.add("apple");
+		list.add("banana");
+		list.add("Orange");
+
+		String fruit = (String) list.get(1);
+		System.out.println(fruit);
+
+		// In JAVA-5 Genetrics were introduced
+
+	}
+}

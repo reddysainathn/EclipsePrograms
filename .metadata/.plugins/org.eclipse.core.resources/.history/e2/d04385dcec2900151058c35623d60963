@@ -1,0 +1,14 @@
+package queues;
+
+public class Queuess {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// (head)<- ooooooooooooooooooo <-(Tail)
+		// Queue is a FIFO(First In First Out) Structure
+		// First Item you remove in the queue is the first Item you added
+
+	}
+
+}

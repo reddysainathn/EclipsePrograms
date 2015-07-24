@@ -1,0 +1,28 @@
+package sortinglist;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class SortingLists {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<String> animals = new ArrayList<String>();
+		animals.add("tiger");
+		animals.add("lion");
+		animals.add("cat");
+		animals.add("snake");
+		animals.add("mangoose");
+		animals.add("elephant");
+
+		// Sorting the animals
+		Collections.sort(animals);
+
+		for (String animal : animals) {
+			System.out.println(animal);
+		}
+	}
+
+}

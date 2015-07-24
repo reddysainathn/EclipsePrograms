@@ -1,0 +1,24 @@
+package ReentrantLocks_11;
+
+public class Runner {
+
+	private int count = 0;
+
+	private void increment() {
+		for (int i = 0; i < 10000; i++) {
+			count++;
+		}
+	}
+
+	public void firstThread() throws InterruptedException {
+
+	}
+
+	public void secondThread() throws InterruptedException {
+
+	}
+
+	public void finished() {
+
+	}
+}

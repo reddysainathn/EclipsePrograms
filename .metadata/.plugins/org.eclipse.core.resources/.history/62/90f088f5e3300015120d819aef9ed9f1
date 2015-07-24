@@ -1,0 +1,33 @@
+package WaitAndNotify_10;
+
+import java.util.Scanner;
+
+public class Processor {
+
+	public void produce() throws InterruptedException {
+		// using synchronized (this) makes the thread to wait untill it has lock
+		// in the produce() method
+		synchronized (this) {
+			System.out.println("Producer Thread running.");
+			// Wait is only called in Synchronized Block
+			wait();
+			System.out.println("Resumed.");
+			
+
+		}
+	}
+
+	public void consume() throws InterruptedException {
+		
+		Scanner scanner = new Scanner(System.in);
+		Thread.sleep(2000);
+		synchronized (this) {
+		System.out.println("Waiting for Pressing ENTER key");
+		scanner.nextLine();
+		System.out.println("ENTER key pressed");
+		//notify() can only called in Synchronized Block
+		notify();
+	
+		}
+	}
+}

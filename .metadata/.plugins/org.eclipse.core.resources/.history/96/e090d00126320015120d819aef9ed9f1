@@ -1,0 +1,15 @@
+package Semaphores_13;
+
+public class Connection {
+	private static Connection instance = new Connection();
+	private Connection(){
+		
+	}
+	public static Connection getInstance(){
+		return instance;
+		
+	}
+public void connect(){
+	System.out.println("Hello");
+}
+}

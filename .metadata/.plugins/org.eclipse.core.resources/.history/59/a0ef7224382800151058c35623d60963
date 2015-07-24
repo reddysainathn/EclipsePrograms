@@ -1,0 +1,14 @@
+import java.io.IOException;
+import java.text.ParseException;
+
+
+public class MultipleExceptions {
+
+	public static void main(String[] args) throws IOException, ParseException {
+		// TODO Auto-generated method stub
+      Test test = new Test();
+      test.run();
+      
+	}
+
+}

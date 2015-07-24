@@ -1,0 +1,51 @@
+package sets;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Setss {
+	public static void main(String[] args) {
+		// A set is a kind of collection that stores only Unique elements
+		// hashSet doesnot retain(Maintain) Order
+		// Set<String> set1 = new HashSet<String>();
+
+		// LinkedHashSet remebers the order of items we added in.
+
+		// Set<String> set1 = new LinkedHashSet<String>();
+
+		// TreeSet Will add elements in natural order.
+		// For Strings the natuaral order is alphabatical order.
+
+		Set<String> set1 = new TreeSet<String>();
+		if (set1.isEmpty()) {
+			System.out.println("Set is Empty");
+		}
+		set1.add("dog");
+		set1.add("cat");
+		set1.add("mouse");
+		set1.add("snake");
+		set1.add("bear");
+
+		// Adding duplicate items does nothing
+
+		set1.add("mouse");
+
+		System.out.println(set1);
+
+		// ////////Iteration////////////////
+
+		for (String element : set1) {
+			System.out.println(element);
+		}
+
+		// //////////////////Does set contain a given
+		// item?//////////////////////
+		if (set1.contains("aadvack")) {
+			System.out.println("contains aadvack");
+		}
+		if (set1.contains("cat")) {
+			System.out.println("contains cat");
+		}
+
+	}
+}

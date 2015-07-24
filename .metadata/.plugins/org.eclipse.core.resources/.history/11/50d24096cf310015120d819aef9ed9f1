@@ -1,0 +1,21 @@
+package DeadLock12;
+
+public class Runner {
+
+	private Account acc1 = new Account();
+	private Account acc2 = new Account();
+
+	public void firstStage() throws InterruptedException {
+
+	}
+
+	public void secondStage() throws InterruptedException {
+
+	}
+
+	public void finished() {
+
+		System.out.println("Account-1 Balance :" + acc1.getBalance());
+		System.out.println("Account-2 Balance :" + acc2.getBalance());
+	}
+}

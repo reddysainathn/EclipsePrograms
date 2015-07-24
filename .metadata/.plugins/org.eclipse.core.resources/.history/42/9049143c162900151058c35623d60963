@@ -1,0 +1,16 @@
+package sets;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Setss {
+	public static void main(String[] args) {
+		// A set is a kind of collection that stores only Unique elements
+		Set<String> set1 = new HashSet<String>();
+		set1.add("Dog");
+		set1.add("Cat");
+		set1.add("Giraffee");
+		set1.add("Swan");
+		set1.add("Bear");
+	}
+}

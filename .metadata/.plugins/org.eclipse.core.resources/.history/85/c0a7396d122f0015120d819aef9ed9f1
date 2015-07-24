@@ -1,0 +1,10 @@
+package runnableThreads2;
+
+public class RunnableThreadss {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

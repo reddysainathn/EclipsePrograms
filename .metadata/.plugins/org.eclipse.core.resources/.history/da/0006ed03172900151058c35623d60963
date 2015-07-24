@@ -1,0 +1,25 @@
+package sets;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Setss {
+	public static void main(String[] args) {
+		// A set is a kind of collection that stores only Unique elements
+		// hashSet diesnot retain(Maintain) Order
+		Set<String> set1 = new HashSet<String>();
+
+		// LinkedHashSet remebers the order of items we added in.
+		set1.add("dog");
+		set1.add("cat");
+		set1.add("mouse");
+		set1.add("snake");
+		set1.add("bear");
+
+		// Adding duplicate items does nothing
+
+		set1.add("mouse");
+
+		System.out.println(set1);
+	}
+}

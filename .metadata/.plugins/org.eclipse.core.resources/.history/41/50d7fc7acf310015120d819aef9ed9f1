@@ -1,0 +1,18 @@
+package DeadLock12;
+
+public class Runner {
+	
+	private Account acc1 = new Account() ;
+
+	public void firstStage() throws InterruptedException {
+
+	}
+
+	public void secondStage() throws InterruptedException {
+
+	}
+
+	public void finished() {
+
+	}
+}

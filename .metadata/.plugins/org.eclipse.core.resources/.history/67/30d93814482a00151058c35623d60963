@@ -1,0 +1,32 @@
+package iterators;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class Iteratorss {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> animals = new LinkedList<String>();
+		
+		animals.add("Fox");
+		animals.add("Cat");
+		animals.add("Dog");
+		animals.add("Rabbit");
+		
+		//http://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html
+		//Before JAVA 5
+		Iterator<String> it = animals.iterator();
+		
+		String value = it.next();
+		
+		System.out.println(value);
+		///Modern Iteration ,Post JAVA5 and later
+		
+		for(String animal:animals){
+			System.out.println(animal);
+		}
+
+	}
+
+}

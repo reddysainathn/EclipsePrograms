@@ -1,0 +1,14 @@
+package DeadLock12;
+
+public class Runner {
+	
+	public void firstStage() throws InterruptedException{
+		
+	}
+public void secondStage() throws InterruptedException{
+		
+	}
+public void finished() {
+	
+}
+}

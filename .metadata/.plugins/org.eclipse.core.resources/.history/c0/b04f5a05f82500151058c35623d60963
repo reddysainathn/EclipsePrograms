@@ -1,0 +1,9 @@
+//Abstract Classes are used to create class hierarchy,but bas clas adds base for the classes
+public class AbstractClasses {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

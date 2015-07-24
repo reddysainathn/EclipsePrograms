@@ -1,0 +1,13 @@
+public class RunTimeExceptions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int value = 7;
+		// value = value / 0;
+
+		String text = null;
+		System.out.println(text.length());
+
+	}
+
+}

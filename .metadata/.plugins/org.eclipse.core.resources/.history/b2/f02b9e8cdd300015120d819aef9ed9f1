@@ -1,0 +1,19 @@
+package producerConsumer9;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+
+public class ProducerConsumer {
+
+	// BlockingQueue is a data-structure,where we can add and remove Items to it
+	// Queue is First-In-First_out(FIFO)
+	private BlockingQueue queue = new ArrayBlockingQueue(10) {
+
+	};
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,24 @@
+class Machine {
+	public void start() {
+		System.out.println("Machine Started!");
+	}
+}
+
+class Camera extends Machine {
+	public void start() {
+		System.out.println("Machine Started!");
+	}
+
+	public void snap() {
+		System.out.println("Photo Taken!");
+	}
+}
+
+public class UpcastingDowncasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

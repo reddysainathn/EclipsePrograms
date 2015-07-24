@@ -1,0 +1,9 @@
+BranchProjectTracker__C\:\\SOFT\\WorkSpace\\.git_5c211682cb0c0a4daab227856f2242f202d84b23=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="5c211682cb0c0a4daab227856f2242f202d84b23"/>
+BranchProjectTracker__C\:\\SOFT\\WorkSpace\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="master"/>
+BranchProjectTracker__C\:\\SOFT\\WorkSpace\\.git_r=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="r"/>
+BranchProjectTracker__C\:\\Users\\Sainath\ Reddy\\git\\EclipsePrograms\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="master">\r\n<project>\\HelloWorld</project>\r\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Second commit</message>\r\n<message>Another change done</message>\r\n<message>Add a change</message>\r\n<message>Initial Commit</message>\r\n<message>First Commit</message>\r\n<message>first commit</message>\r\n</messages>
+eclipse.preferences.version=1
+org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog_ADVANCED_MODE=true
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

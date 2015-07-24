@@ -85,7 +85,7 @@ public String getY(){
 	return super.getY();
 }
 public void setY(String y){
-	this.y=
+	
 }
 	
 	

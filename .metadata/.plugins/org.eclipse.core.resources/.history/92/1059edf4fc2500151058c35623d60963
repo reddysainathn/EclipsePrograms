@@ -1,0 +1,12 @@
+/*
+ * Using Generics class is a class that can work with other objects 
+ * and we can specify what object we can work when we instantiate the class
+ */
+public class UsingGenerics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

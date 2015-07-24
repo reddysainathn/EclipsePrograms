@@ -1,0 +1,15 @@
+package startingThreads;
+
+class Runner extends Thread{
+
+}
+
+public class StartingThreads {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

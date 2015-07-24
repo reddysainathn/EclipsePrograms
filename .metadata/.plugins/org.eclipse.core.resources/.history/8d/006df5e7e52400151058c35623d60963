@@ -1,0 +1,18 @@
+public class CastingNumericalValues {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		byte byteValue = 20;
+		short shortValue = 55;
+		int intValue = 888;
+		long longValue = 23335;
+		float floatValue = 4854.5f;
+		double doubleValue = 43843.54334;
+		System.out.println(Double.MAX_VALUE);
+		
+		System.out.println(Byte.MAX_VALUE);
+
+	}
+
+}

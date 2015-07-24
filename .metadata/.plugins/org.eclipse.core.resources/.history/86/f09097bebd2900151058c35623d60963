@@ -1,0 +1,66 @@
+package naturalOrdering;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+class Perso {
+	private String name;
+
+	public Perso(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String toString() {
+		return name;
+
+	}
+}
+
+public class NaturalOrderingg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<String> list = new ArrayList<String>();
+
+		// Treeset stores the elements in sorted natural order
+		SortedSet<String> set = new TreeSet<String>();
+
+		System.out.println("Adding Elements and showing them to the list");
+
+		addElements(list);
+		// It will sort List
+		Collections.sort(list);
+
+		showElements(list);
+
+		System.out.println();
+		System.out.println("Adding Elements and showing them to the set");
+		addElements(set);
+		showElements(set);
+
+	}
+
+	private static void addElements(Collection<String> collection) {
+
+		collection.add("Joe");
+		collection.add("Sue");
+		collection.add("Juliet");
+		collection.add("Clare");
+		collection.add("Mike");
+
+	}
+
+	private static void showElements(Collection<String> collection) {
+
+		for (String element : collection) {
+			System.out.println(element);
+		}
+
+	}
+}

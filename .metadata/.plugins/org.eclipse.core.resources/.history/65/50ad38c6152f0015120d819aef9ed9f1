@@ -1,0 +1,39 @@
+package basicThreadSynchronization4;
+
+/*
+ * There are two problems if there are more than one threads showing DATA
+ * 1..Data to be En-cached
+ * 2..Thread Inter-Leaving
+ */
+
+class Processor extends Thread {
+
+	public void run() {
+
+		while (true) {
+			System.out.println("Hello");
+
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}
+
+	}
+
+}
+
+public class BasicThreadSynchronization {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Processor process1 = new Processor();		
+		process1.start();
+
+	}
+
+}
