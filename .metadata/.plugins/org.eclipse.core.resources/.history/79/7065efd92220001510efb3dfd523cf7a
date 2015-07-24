@@ -1,8 +1,0 @@
-package Arrays;
-
-public class IntroToArrays {
-public static void main(String[] args) {
-	//int is a primitive type
-	
-}
-}

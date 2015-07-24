@@ -1,5 +1,0 @@
-package ClassesandObjects;
-
-public class Plant {
-	public String name;
-}

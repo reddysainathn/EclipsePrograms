@@ -1,9 +1,0 @@
-package ClassesandObjects;
-
-public class Plant {
-	public String name;
-	public static final  int ID =8;
-	public Plant(String name){
-	this.name ="Freddy";
-	}
-}
