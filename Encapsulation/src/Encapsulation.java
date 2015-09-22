@@ -28,7 +28,10 @@ class Plant {
 
 public class Encapsulation {
 	public static void main(String[] args) {
+		
+		Plant plant = new Plant();
 
+		plant.getData();
 	}
 
 }

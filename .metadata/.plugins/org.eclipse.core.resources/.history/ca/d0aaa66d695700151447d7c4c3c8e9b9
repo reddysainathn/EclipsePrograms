@@ -1,0 +1,55 @@
+package Linkedlist;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class LinkedLists {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Array lists  manage Arrays internally
+		 * [0][1][2][3][4].....  
+		 * If we want to add an element at begining or in middle,it takes time to shift all elements 
+		 * It is a time taking process
+		 */
+		
+		ArrayList<Integer> arraylist = new ArrayList<Integer>();
+		/*
+		 * LinkedLists consist of elements where each elements has a referennce to the previous and next element
+		 * [0]<=>[1]<=>[2]<=>[3]<=>[4]=>......
+		 */
+		
+		LinkedList<Integer> linkedlist = new LinkedList<Integer>();
+
+		doTimings("ArrayList", arraylist);
+
+		doTimings("LinkedList", linkedlist);
+
+	}
+
+	private static void doTimings(String type, List<Integer> list) {
+
+		for (int i = 0; i < 1e5; i++) {
+			list.add(i);
+		}
+
+		long start = System.currentTimeMillis();
+
+		/*
+		 * // Add Items at end of list 
+		 * for (int i = 0; i < 1e5; i++) {
+		 * list.add(i); }
+		 */
+		/*
+		 //Add Items at begin of list 
+		  for (int i = 0; i < 1e5; i++) {
+		  list.add(0,i); }
+		*/
+		long end = System.currentTimeMillis();
+
+		System.out.println("Time Taken :" + (end - start) + "ms for " + type);
+	}
+}

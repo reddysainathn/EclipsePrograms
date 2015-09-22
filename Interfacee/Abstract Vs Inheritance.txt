@@ -1,0 +1,14 @@
+Abstract Class
+
+	Abstract class can have abstract and non-abstract methods.
+	Abstract class doesn't support multiple inheritance.
+	Abstract class can have static methods, main method and constructor.
+	
+	
+Interface
+
+	Interface can have only abstract methods.
+	Interface supports multiple inheritance.
+	Interface has only static and final variables
+	Interface can't have static methods, main method or constructor.
+	

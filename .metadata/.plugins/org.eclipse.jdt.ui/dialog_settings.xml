@@ -22,6 +22,13 @@
 		<item value="545" key="DIALOG_X_ORIGIN"/>
 		<item value="128" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="350" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="300" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
 	<section name="javadoc">
 		<item value="public" key="access"/>
 		<item value="false" key="noindex"/>
@@ -53,6 +60,9 @@
 		<item value="true" key="showtypes"/>
 	</section>
 	<section name="RenameInformationPopup">
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="9" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>

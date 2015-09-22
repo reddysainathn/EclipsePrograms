@@ -1,0 +1,6 @@
+An interface in java is a blueprint of a class. It has static constants and abstract methods only.
+
+The interface in java is a mechanism to achieve fully abstraction. 
+There can be only abstract methods in the java interface not method body. 
+It is used to achieve fully abstraction and multiple inheritance in Java.
+By interface, we can support the functionality of multiple inheritance.
